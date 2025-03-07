@@ -10,7 +10,7 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
 # Load API key from environment variable or use default for development
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY",
-                                    "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")
+                                    "OPENROUTER_API_KEY")
 
 
 def initialize_driver():
